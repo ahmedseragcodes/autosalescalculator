@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "../src/App.scss";
+import 'bulma/css/bulma.css';
 import App from './App';
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import reducer from "./store/reducer";
 import reportWebVitals from './reportWebVitals';
+
+
+
 
 ReactDOM.render(
     <App />,
