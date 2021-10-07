@@ -1,11 +1,3 @@
-Step 1 - Planning 📝
-
-Take a good amount of time to familiarize yourself with the project structure. Figure out what data you have and where it's being used (Pen and paper or a whiteboard will be your best friend here!)
-Plan out your state management structure as mentioned above. The only requirment is that you must use Redux
-Write out the steps you think you'll need to complete this project. It seems silly, but doing this with every project will help you grow into a better developer a lot faster.
-Take note of the few comments throughout the app. They are there as little guides to nudge you in the right direction. You're welcome 😉
-Step 2 - And... Action! 🎬
-
 Time to get your hands on your keyboard. Look at the first step you wrote down and start implementing!
 As you work through setting up redux, you can do it however you'd like. This is the flow that works for me:
 Set up "empty" reducer and initial state 👉 Set up store and Provider 👉

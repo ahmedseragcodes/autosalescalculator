@@ -9,10 +9,12 @@ import reducer from "./store/reducer";
 import reportWebVitals from './reportWebVitals';
 
 
-
+const store=createStore(reducer);
 
 ReactDOM.render(
-    <App />,
+    <Provider store={store}>
+    <App />
+    </Provider>,
   document.getElementById('root')
 );
 
