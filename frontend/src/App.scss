@@ -1,13 +1,8 @@
-*{
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
 html, body, #root {
   height: 100%;
 }
 body {
-  background: #333;
+  background: white;
   margin: 0;
   display: grid;
   padding: 3em;
@@ -50,5 +45,17 @@ body {
     background: white;
     border: 1px solid hotpink;
     color: #333;
+  }
+}
+.carImage {
+  width: 15em;
+}
+
+//MEDIA QUERIES FOR MOBILE
+@media (max-width: 650px){
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
