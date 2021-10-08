@@ -1,5 +1,3 @@
-Time to get your hands on your keyboard. Look at the first step you wrote down and start implementing!
-As you work through setting up redux, you can do it however you'd like. This is the flow that works for me:
 Set up "empty" reducer and initial state 👉 Set up store and Provider 👉
 Connect components 👉 Add events and event handlers in UI 👉 Build action creators 👉
 write the reducer logic for the actions 👉 Rinse and repeat
